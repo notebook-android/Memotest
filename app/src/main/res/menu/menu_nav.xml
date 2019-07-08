@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/app_name">
+
+    <menu>
+        <item
+            android:title="@string/all_nav"
+            android:icon="@drawable/pic_all_notes"
+            />
+        <item
+        android:title="@string/calender_nav"
+        android:icon="@drawable/pic_calender"
+        />
+       <item
+        android:title="@string/emergency_call_nav"
+        android:icon="@drawable/pic_alert"
+        />
+        <item
+        android:title="@string/recycle_nav"
+        android:icon="@drawable/pic_recycle"
+        />
+       <item
+        android:title="@string/security_nav"
+        android:icon="@drawable/pic_setting"
+        />
+        <item
+            android:title="@string/help_nav"
+            android:icon="@drawable/pic_help"
+            />
+    </menu>
+    </item>
+
+</menu>

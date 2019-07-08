@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:adroid="http://schemas.android.com/apk/res/android"
+    adroid:layout_width="match_parent"
+    adroid:layout_height="match_parent"
+>
+
+
+
+
+    <TextView
+        adroid:layout_width="match_parent"
+        adroid:layout_height="wrap_content"
+        adroid:layout_centerHorizontal="true"
+        adroid:layout_alignParentBottom="true"
+        adroid:gravity="center"
+        adroid:textSize="25dp"
+        adroid:text="@string/bottom_wel"
+        adroid:layout_marginBottom="20dp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        adroid:id="@+id/image"
+        adroid:layout_width="80dp"
+        adroid:layout_height="80dp"
+        adroid:src="@drawable/icon2"
+        adroid:layout_alignParentTop="true"
+        adroid:layout_centerHorizontal="true"
+        adroid:layout_marginTop="187dp" />
+
+</RelativeLayout>
